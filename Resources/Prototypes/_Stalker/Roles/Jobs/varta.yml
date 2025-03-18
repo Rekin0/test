@@ -1,0 +1,46 @@
+- type: job
+  id: StalkerVarta
+  name: Варта
+  icon: varta_peace
+  description: Военизированная группировка, самопровозглашённая «полиция Зоны».
+  playTimeTracker: JobVarta
+  whitelisted: true
+  requirements:
+    # - !type:RoleTimeRequirement
+    #   role: JobVarta
+    #   time: 1
+    - !type:SpeciesRequirement
+      species:
+      - Human
+      - Dwarf
+  startingGear: VartaGear
+  supervisors: Вы подчиняетесь старшим по званию.
+  canBeAntag: false
+  special:
+    - !type:AddComponentSpecial
+      components:
+        - type: Access
+          tags:
+            - Varta
+            - Stalker
+        - type: Bands
+          band: Stalker
+          altBand: varta_harm
+          canChange: true
+          bandIcon: varta_peace
+        - type: BlockTackingHolyItems
+        - type: TeethPull
+          teethProto: ToothStalker
+          pullingItemTag: PliersStalker
+          teethCount: 3
+          initialTeeth: 3
+
+
+- type: startingGear
+  id: VartaGear
+  equipment:
+    id: VartaPDA
+    belt: ClothingBeltStorageWaistbag
+    legs: ClothingLegsVarta
+    shoes: ClothingShoesBootsCombat
+    torso: ClothingTorsoTurtleneckVarta

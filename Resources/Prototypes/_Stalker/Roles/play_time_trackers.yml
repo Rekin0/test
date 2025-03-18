@@ -28,6 +28,8 @@
   id: JobProjectOrchestrator
 - type: playTimeTracker
   id: JobPoisk
+- type: playTimeTracker
+  id: JobVarta
 
 - type: playTimeTracker
   id: JobHeadMilitary

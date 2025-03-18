@@ -46,3 +46,5 @@
             # Mercenary
             StalkerMercenary: [ 0, -1 ]
             StalkerHeadMercenary: [ 0, -1 ]
+            # Varta
+            StalkerVarta: [ 0, -1 ]
