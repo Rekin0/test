@@ -655,6 +655,22 @@
     repositoryWeight: 2500
 # Repository for Monolith - End 
 
+# Repository for Varta - Start
+- type: entity
+  parent: BandRepositoryBase
+  id: PortalBandVartaRepository
+  suffix: 500
+  noSpawn: false
+  name: Band-Varta-Repository
+  description: Band-Varta-Repository-desc
+  components:
+  - type: AccessReader
+    access: [["Varta"]]
+  - type: StalkerBandTeleport
+    portalName: _PortalBandVartaRepository
+    repositoryWeight: 500
+# Repository for Varta - End 
+
 # BandPrototype
 - type: bandLoader
   id: BandLoaderBase
@@ -716,3 +732,5 @@
     - "_PortalBandSerafimRepository"
 
     - "_PortalBandMonolithRepository"
+
+    - "_PortalBandVartaRepository"
