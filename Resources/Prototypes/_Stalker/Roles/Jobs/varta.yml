@@ -22,7 +22,6 @@
         - type: Access
           tags:
             - Varta
-            - Stalker
         - type: Bands
           band: Stalker
           altBand: varta_harm
