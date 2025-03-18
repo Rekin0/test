@@ -801,3 +801,24 @@
   - type: AccessReader
     access: [["Pilgrim"]]
 
+#Варте
+- type: entity
+  id: HermoDverTypeOneVartaClosed
+  name: гермодверь
+  parent: HermoDverTypeOne
+  description: Защитно-герметические и герметические устройства, которые используются для охраны защитных сооружений гражданской обороны от вредных воздействий различного характера.
+  suffix: ST, mapping, Варта
+  components:
+  - type: AccessReader
+    access: [["Varta"]]
+
+- type: entity
+  id: MetalAltDoorFalloutVartaClosed
+  name: стальная дверь
+  parent: MetalAltDoorFallout
+  description: Крепкая стальная дверь с надёжным замком.
+  suffix: ST, mapping, Варта
+  components:
+    - type: AccessReader
+      access: [["Varta"]]
+
