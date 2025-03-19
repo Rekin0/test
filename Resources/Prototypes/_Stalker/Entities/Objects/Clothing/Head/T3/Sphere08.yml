@@ -117,3 +117,14 @@
     sprite: _Stalker/Objects/Clothing/hats/berill5m_helm_dolg.rsi
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/hats/berill5m_helm_dolg.rsi
+
+- type: entity
+  parent: STClothingHeadHelmetEnvironmentT3Base
+  id: ClothingHeadHelmetZH1V
+  name: шлем ЗШ-1В
+  description: Вартовская модификация лёгкого российского шлема ЗШ-1. Предназначен для защиты головы пользователя от пуль огнестрельного оружия и осколочного воздействия.
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/hats/zh-1V.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/hats/zh-1V.rsi

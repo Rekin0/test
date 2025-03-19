@@ -235,6 +235,31 @@
 
 
 
+
+# Varta - 6
+
+
+- type: entity
+  parent: STClothingOuterArmorZaryaBase
+  id: ClothingOuterArmorZaryaVarta
+  name: комбинезон "Щит"
+  description: Легкий комбинезон, созданный техниками "Варты". Убережёт владельца от мутантов, но вряд ли спасёт от автоматной очереди.
+  components:
+  - type: Sprite
+    sprite: _Stalker\Objects\Clothing\outerClothing\varta_combez.rsi
+  - type: Clothing
+    sprite: _Stalker\Objects\Clothing\outerClothing\varta_combez.rsi
+  - type: Storage
+    maxItemsize: Large
+    grid:
+      - 1,0,1,0
+      - 3,0,3,0
+      - -1,2,-1,3
+      - 1,2,1,3
+      - 3,2,3,3
+      - 5,2,5,3
+
+
 # Mods
 
 - type: entity

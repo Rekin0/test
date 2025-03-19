@@ -271,3 +271,14 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/clear_sky_armor.rsi
 
+- type: entity
+  parent: STClothingOuterArmorLightPlateVestBase
+  id: STClothingOuterArmorLightPlateVestBaseVarta
+  name: бронежилет «Щиток-2» Варты
+  description: Лёгкий бронежилет второго класса защиты. Выполнен в раскраске группировки "Варта".
+  components:
+  - type: Sprite
+    sprite: _Stalker\Objects\Clothing\outerClothing\plate_varta.rsi
+  - type: Clothing
+    sprite: _Stalker\Objects\Clothing\outerClothing\plate_varta.rsi
+

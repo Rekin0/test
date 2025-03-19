@@ -93,4 +93,15 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/hats/assault_helm_dolg.rsi
 
+- type: entity
+  parent: STClothingHeadHelmetCombatT3Base
+  id: ClothingHeadAssaultHelmetVarta
+  name: шлем «Зенит» Варты
+  description: боевой шлем марки «Зенит» третьего класса защиты, выполненный в раскраске группировки "Варта".
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/hats/assault_helm_varta.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/hats/assault_helm_varta.rsi
+
 

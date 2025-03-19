@@ -96,3 +96,15 @@
     slot: head
     requiredSlot: NECK
     clothingPrototype: ClothingHeadCassock
+
+- type: entity
+  parent: STClothingOuterArmorLightPlateVestBaseANAgreen
+  id: STClothingOuterArmorТBV1
+  name: ТБВ-1
+  description: Тактический Бронежилет Варты модель 1. Основной боевой бронежилет, сделанный по заказу группировки "Варта" на основе советского 6Б5. Подходит для длительного пребывания в условиях Зоны. Обеспечивает защиту 3 класса.
+  components:
+  - type: Sprite
+    sprite: _Stalker\Objects\Clothing\outerClothing\tbv-1.rsi
+  - type: Clothing
+    sprite: _Stalker\Objects\Clothing\outerClothing\tbv-1.rsi
+  - type: Craftable
