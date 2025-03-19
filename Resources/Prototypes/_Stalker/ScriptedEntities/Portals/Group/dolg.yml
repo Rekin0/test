@@ -7,7 +7,7 @@
       allowAll: false
       portalName: Cordon-Dolg
     - type: AccessReader
-      access: [["Dolg"]]
+      access: [["Varta"]]
 
 - type: entity
   parent: MapTeleportBaseUncollide

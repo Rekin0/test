@@ -498,3 +498,45 @@
     - Binary
     - Common
 
+# Varta - 10
+
+- type: entity
+  parent: NPCDoll
+  id: NPCVarta
+  name: Капитан Гончаров[→   ←]
+  suffix: ST, Gruppirovki
+  description: Продает хорошее снаряжение для охоты и припасы очень важные для выживания в зоне.
+  components:
+  - type: Sprite
+    sprite: _Stalker/NPC/Groups/Varta.rsi
+    state: icon
+  - type: Physics
+    bodyType: Static
+  - type: Advertise
+    pack: NPCStalkerTraderAds
+  - type: ActivatableUI
+    key: enum.ShopUiKey.Key
+    singleUser: true
+  - type: UserInterface
+    interfaces:
+      enum.ShopUiKey.Key:
+        type: ShopBoundUserInterface
+  - type: Shop
+    moneyId: Roubles
+    shopPresetId: VartaShopPreset
+  - type: TypingIndicator
+    proto: robot
+  - type: TTS # Corvax-TTS
+    voice: TrainingRobot
+  - type: Speech
+    speechVerb: Robotic
+    speechSounds: Alto
+  - type: IntrinsicRadioReceiver
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Binary
+  - type: ActiveRadio
+    channels:
+    - Binary
+    - Common
+
